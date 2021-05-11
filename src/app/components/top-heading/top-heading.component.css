@@ -1,0 +1,9 @@
+.box{
+    padding: 10px 10px;
+    background-color: rgba(248, 248 , 248, 0.9);
+}
+
+.box h4{
+    font-size: 18px;
+    font-weight: bold;
+}

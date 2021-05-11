@@ -1,0 +1,19 @@
+
+<div class="container-fluid mt-4">
+
+    <h2>Technology</h2>
+
+    <div class="row">
+        <div class="col-lg-3 mt-3 mb-3" *ngFor="let item of techNewsDisplay">
+
+            <div class="box">
+                <img src="{{item.urlToImage}}" width="100%">
+                <h4 class="mt-2 mb-3">{{ item.title }}</h4>
+                <!--<p>{{item.description}}</p>-->
+                <a href="{{item.url}}" target="_blank" class="btn btn-dark btn-sm">Ver más</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
